@@ -1,14 +1,21 @@
 @import url('./fonts.css');
+@import url('./slider.css');
+@import url('./hamburguer.css');
 
 * {
   margin: 0;
   padding: 0;
   
-  font-family: "quicksand" !important;
+  /* font-family: "quicksand" !important; */
+  font-family: proximanovasemi !important;
 
   --vermelho: rgb(196,26,26);
   --preto: #212121;
   --ciano: rgb(87,186,176);
+}
+
+h1, h2 {
+  font-family: proximanovabold !important;
 }
 
 body {
@@ -95,21 +102,8 @@ a {
   justify-content: center;
   align-items: center;
 }
-.cabecalho-conteudo {
-  border-radius: 5px;
-  width: 100%;
-  background-color: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.cabecalho-conteudo img {
-  height: 250px;
-  z-index: 2;
-}
 .pagina-conteudo {
-  padding: 50px 40px;
+  padding: 20px 40px;
 }
 
 .pagina {
@@ -158,6 +152,9 @@ a.arquivo-programa:hover, a.arquivo-programa:hover div {
   height: 120px;
   background-color: var(--vermelho);
   grid-template-columns: auto auto;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
 }
 .menu-logo {
   display: flex;
@@ -168,14 +165,10 @@ a.arquivo-programa:hover, a.arquivo-programa:hover div {
   height: 120px;
 }
 .menu-opcoes {
+  position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
-}
-.menu-opcoes a {
-  color: white;
-  font-size: 23px;
-  font-weight: bolder;
+  align-items: center;
 }
 
 @media all and (max-width: 1099px) {
@@ -184,9 +177,14 @@ a.arquivo-programa:hover, a.arquivo-programa:hover div {
   }
   .conteudo {
     margin-left: 0px;
+    margin-top: 120px;
+    position: absolute;
   }
   .menu {
     display: grid;
+  }
+  .menu-hamb {
+    display: block;
   }
 }
 @media all and (max-width: 640px) {
@@ -206,40 +204,6 @@ a.arquivo-programa:hover, a.arquivo-programa:hover div {
     font-size: 30px;
   }
   .pagina-conteudo {
-    padding: 50px 12px;
+    padding: 35px 12px;
   }
 }
-
-/* footer {
-  background-color: var(--preto);
-  padding: 30px 0px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-footer div {
-  display: flex;
-  justify-content: center;
-}
-.footer-redes {
-  flex-direction: column;
-  align-items: center;
-}
-.footer-redes ul {
-  list-style: none;
-  padding: 20px;
-}
-.footer-redes a {
-  color: white;
-}
-.footer-redes a:hover {
-  color: black;
-}
-.footer-logos {
-  column-gap: 20px;
-  align-items: center;
-}
-.footer-logos img {
-  max-height: 100px;
-  height: fit-content;
-  max-width: 80px;
-} */

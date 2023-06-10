@@ -5,12 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UNE na LUTA!</title>
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/main.css">
-  
+
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- CSS próprios -->
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   
@@ -26,10 +28,20 @@
         </div>
       </div>
       <div class="menu-opcoes">
-        <a href="./arquivo/programa_UNEnaLUTA.pdf" target="_blank">
+        <div class="menu-hamb">
+          <div class="menu-hamburger"></div>
+        </div>
+      </div>
+
+        <!-- <a href="./arquivo/programa_UNEnaLUTA.pdf" target="_blank">
           Programa
         </a>
-      </div>
+        <a href="./arquivo/programa_UNEnaLUTA.pdf" target="_blank">
+          Manifesto
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJ7NK27kaF1_nuBKzWoSFlZdfAAZ53ykiM3RLQZ1HEAuW3QQ/viewform">
+          Contribua financeiramente
+        </a> -->
     </div>
 
     <!-- Sidebar -->
@@ -45,6 +57,12 @@
         </a>
         <a href="./arquivo/programa_UNEnaLUTA.pdf" class="sidebar-menu-item" target="_blank">
           Programa
+        </a>
+        <a href="./arquivo/manifesto.pdf" class="sidebar-menu-item" target="_blank">
+          Manifesto
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJ7NK27kaF1_nuBKzWoSFlZdfAAZ53ykiM3RLQZ1HEAuW3QQ/viewform" class="sidebar-menu-item" target="_blank">
+          Contribua financeiramente
         </a>
       </div>
       <div class="sidebar-redes">
@@ -66,11 +84,36 @@
     <div class="conteudo">
       
       <div class="pagina">
-        <div class="cabecalho-conteudo" style="height: 250px;">
-          <img src="./img/logochapa.png" alt="Logo da Chapa, com o escrito 'Chapa UNE NA LUTA! Pela universidade popular'." style="height: 180px">
-        </div>
-          
+
+        <!-- Slider -->
+        <section class="slider">
+
+          <div class="seta arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
+    
+            <img src="img/slide1.jpg" alt="slide-1.jpg">
+            <img src="img/slide2.jpg" alt="slide-2.jpg">
+            <img src="img/slide3.jpg" alt="slide-3.jpg">
+            <img src="img/slide4.jpg" alt="slide-4.jpg">
+            <img src="img/slide5.jpg" alt="slide-4.jpg">
+            <img src="img/slide6.jpg" alt="slide-4.jpg">
+            <img src="img/slide7.jpg" alt="slide-4.jpg">
+            <img src="img/slide8.jpg" alt="slide-4.jpg">
+            <img src="img/slide9.jpg" alt="slide-4.jpg">
+    
+          <div class="seta arrow-right"><i class="fas fa-chevron-circle-right"></i></div>
+        
+        </section>
+
+        <!-- Texto -->
         <div class="pagina-conteudo">
+          <a href="./arquivo/programa_UNEnaLUTA.pdf" class="arquivo-programa" target="_blank">
+            <div>
+              Leia nosso programa!
+            </div>
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+          <br><br>
+
           <h1>UNE NA LUTA: Pela Universidade Popular!</h1>
           <h2>59º CONUNE</h2>
 
@@ -95,40 +138,17 @@
           <p>
             🔥 Conheça a Chapa UNE NA LUTA e converse conosco nos próximos dias! Confira também o nosso <a href="./arquivo/programa_UNEnaLUTA.pdf" target="_blank">Programa</a>. Venha com a UNE NA LUTA construir uma universidade verdadeiramente popular! 🚩
           </p>
-
-          <br><br>
-          <a href="./arquivo/programa_UNEnaLUTA.pdf" class="arquivo-programa" target="_blank">
-            <div>
-              Leia nosso programa!
-            </div>
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
         </div>
       </div>
-  
-      <!-- <footer>
-        <div class="footer-redes">
-          <h3>
-            Redes sociais
-          </h3>
-          <ul>
-            <li>
-              <a href="https://www.instagram.com/ujcbrasil/">@unenaluta.usp</a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/mup.usp/">@mup.usp</a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/ujcbrasil/">@ujcbrasil</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-logos">
-          <img src="./img/mup_vermelho.png" alt="Logo do Movimento por uma Universidade Popular" style="border-radius: 50%">
-          <img src="./img/ujc.png" alt="Logo da União da Juventude Comunista">
-        </div>
-      </footer> -->
     </div>
   </main>
+
+  <!-- JavaScript -->
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- Slider -->
+  <script src="./js/slider.js"></script>
+  <!-- Menu Hamburguer -->
+  <script src="./js/hamburguer.js"></script>
 </body>
 </html>
