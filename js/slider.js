@@ -13,8 +13,8 @@ let cores = [
   'black',
   'rgb(196,26,26)',
   'rgb(196,26,26)',
-  'url("../img/fundo_1.png")',
-  'url("../img/fundo_2.png")',
+  'url("img/fundo_1.png")',
+  'url("img/fundo_2.png")',
   'rgb(106,176,165)',
   'rgb(196,26,26)'
 ]
