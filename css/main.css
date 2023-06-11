@@ -22,6 +22,12 @@ body {
   display: block;
   height: 100vh;
   color: white;
+  background-image: url('../img/fundo.png');
+  background-size: 100px;
+}
+
+main {
+  height: 100vh;
 }
 
 a {
@@ -94,8 +100,6 @@ a {
 
 .conteudo {
   margin-left: 20vw;
-  background-image: url('../img/fundo.png');
-  background-size: 100px;
   display: grid;
   grid-template-rows: auto auto;
   row-gap: 30px;
