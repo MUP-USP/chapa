@@ -101,6 +101,7 @@ a {
   row-gap: 30px;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .pagina-conteudo {
   padding: 20px 40px;
