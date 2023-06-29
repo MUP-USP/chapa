@@ -163,13 +163,16 @@ a {
 }
 
 .header-financiamento {
-  max-width: 860px;
+  width: 100%;
+  text-align: center;
   max-height: 250px;
   background: #242424;
 }
 
 .header-financiamento img {
   width: 100%;
+  max-width: 564px;
+  max-height: 250px;
   justify-content: center;
 }
 
