@@ -216,7 +216,7 @@ a {
     display: none;
   }
   .conteudo {
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 120px;
     position: absolute;
   }
@@ -243,7 +243,26 @@ a {
   a.arquivo-programa div {
     font-size: 30px;
   }
+
   .pagina-conteudo {
-    padding: 35px 12px;
+    width: 70%;
+  }
+
+  .pagina-conteudo div {
+    width: 70%;
+    padding: 20px;
+  }
+
+  .pagina {
+    width: 70%;
+  }
+
+  .pagina div {
+    width: 80%;
+  }
+
+  .header-financiamento {
+    justify-self: center;
+    width: 80%;
   }
 }
