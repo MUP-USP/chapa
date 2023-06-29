@@ -173,14 +173,15 @@ a {
   width: 100%;
   max-width: 564px;
   max-height: 250px;
-  justify-content: center;
 }
 
 .premios {
+  text-align: center;
   background: #6ab0a4;
+  width: 100%;
 }
 .premios img {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* menu */
