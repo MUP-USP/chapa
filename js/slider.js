@@ -4,19 +4,14 @@ const leftArrow = document.querySelector(".arrow-left");
 const rightArrow = document.querySelector(".arrow-right");
 
 let currentIndex = 0;
-let time = 3000; //Tempo padrão para apresentação de slides automática
+let time = 6000; //Tempo padrão para apresentação de slides automática
 
 let cores = [
   'rgb(196,26,26)',
-  'black',
-  'black',
-  'black',
-  'rgb(196,26,26)',
-  'rgb(196,26,26)',
-  'url("img/fundo_1.png")',
   'url("img/fundo_2.png")',
+  'black',
   'rgb(106,176,165)',
-  'rgb(196,26,26)'
+  'url("img/fundo_2.png")'
 ]
 
 const defClass = (startPos, index) => {
